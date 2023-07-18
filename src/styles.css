@@ -1,0 +1,29 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 800 !important;
+}
+
+.card-poke:hover > .card {
+  border: solid 1px rgb(10, 10, 10);
+  transition: all ease-out 0.5s;
+  transform: scale(1.05);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: #242424;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #777777;
+  border-radius: 10px;
+  opacity: 0.5;
+}
